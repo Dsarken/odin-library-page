@@ -81,12 +81,12 @@ function addBookToLibrary(title, author, pages, read) {
 
   // Add validation for title length and number of pages
   if (title.length > 50) {
-    alert("Title is too long. Please limit it to 100 characters or less.");
+    alert("Title is too long. Please limit it to 50 characters or less.");
     return;
   }
 
   if (author.length > 50) {
-    alert("Author name is too long. Please limit it to 30 characters or less.");
+    alert("Author name is too long. Please limit it to 50 characters or less.");
     return;
   }
 

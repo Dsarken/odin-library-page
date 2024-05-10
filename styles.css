@@ -201,3 +201,9 @@ img:hover {
   grid-auto-rows: 320px;
   gap: 50px;
 }
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* adjust this value as needed */
+}
